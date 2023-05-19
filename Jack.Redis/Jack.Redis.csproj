@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+	  <TargetFrameworks>netcoreapp3.1;net6;net7</TargetFrameworks>
+	  <Nullable>enable</Nullable>
+	  <PackageId>Jack.Redis</PackageId>
+	  <Description>.NetCore基于StackExchange.Redis封装的通用连接组件。</Description>
+	  <Author>jackTang</Author>
+	  <Version>1.0.0</Version>
+	  <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Jack.Common" Version="1.0.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="StackExchange.Redis" Version="2.6.111" />
+  </ItemGroup>
+
+</Project>
